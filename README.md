@@ -18,11 +18,9 @@ Meu nome é Kemuel, sou Desenvolvedor iOS Jr com experiência em Swift, SwiftUI 
 <br clear="both">
 
 <div align="center">
-  <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=kemueldematos&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=false&cache_seconds=1800" height="150" alt="GitHub stats" />
-
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kemueldematos&layout=compact&langs_count=5&theme=tokyonight&hide_border=false&cache_seconds=1800" height="150" alt="Top Languages" />
+  <!-- GitHub Stats gerado localmente via Actions -->
+  <img src="stats/github-stats.svg" height="150" alt="GitHub stats" />
+  <img src="stats/top-langs.svg" height="150" alt="Top Languages" />
 </div>
 
 ###
