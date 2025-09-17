@@ -2,7 +2,7 @@ name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: '0 * * * *' 
+    - cron: '0 * * * *' # roda a cada hora
   workflow_dispatch:
 
 jobs:
@@ -18,6 +18,9 @@ jobs:
 
       - name: Install github-readme-stats
         run: npm install github-readme-stats
+
+      - name: Create stats folder
+        run: mkdir -p stats
 
       - name: Generate Stats
         run: |
