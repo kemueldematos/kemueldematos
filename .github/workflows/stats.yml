@@ -1,8 +1,6 @@
 name: Generate GitHub Stats
 
 on:
-  schedule:
-    - cron: '0 * * * *' # roda a cada hora
   workflow_dispatch:
 
 jobs:
@@ -19,13 +17,13 @@ jobs:
       - name: Install github-readme-stats
         run: npm install github-readme-stats
 
-      - name: Create stats folder
+      - name: Ensure stats folder exists
         run: mkdir -p stats
 
       - name: Generate Stats
         run: |
-          npx github-readme-stats generate --user kemueldematos --output stats/github-stats.svg
-          npx github-readme-stats generate --user kemueldematos --output stats/top-langs.svg --langs
+          npx github-readme-stats generate --user kemueldematos --output stats/github-stats.svg || true
+          npx github-readme-stats generate --user kemueldematos --output stats/top-langs.svg --langs || true
           
       - name: Commit SVGs
         run: |
