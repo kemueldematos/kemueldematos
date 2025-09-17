@@ -18,7 +18,6 @@ Meu nome é Kemuel, sou Desenvolvedor iOS Jr com experiência em Swift, SwiftUI 
 <br clear="both">
 
 <div align="center">
-  <!-- GitHub Stats gerado localmente via Actions -->
   <img src="stats/github-stats.svg" height="150" alt="GitHub stats" />
   <img src="stats/top-langs.svg" height="150" alt="Top Languages" />
 </div>
