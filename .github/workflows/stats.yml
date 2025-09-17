@@ -9,22 +9,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
-      - name: Install github-readme-stats
-        run: npm install github-readme-stats
-
       - name: Ensure stats folder exists
         run: mkdir -p stats
 
-      - name: Generate Stats
+      - name: Download GitHub Stats SVGs
         run: |
-          npx github-readme-stats generate --user kemueldematos --output stats/github-stats.svg || true
-          npx github-readme-stats generate --user kemueldematos --output stats/top-langs.svg --langs || true
-          
+          curl -o stats/github-stats.svg "https://github-readme-stats.vercel.app/api?username=kemueldematos&show_icons=true&theme=tokyonight&count_private=true"
+          curl -o stats/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=kemueldematos&layout=compact&theme=tokyonight"
+
       - name: Commit SVGs
         run: |
           git config --local user.name "github-actions[bot]"
