@@ -2,7 +2,8 @@
 
 ###
 
-<p align="left">🇬🇧 EN:<br><br>My name is Kemuel, I'm a iOS Developer Jr with experience in Swift, SwiftUI, and Python, as well as certifications in Artificial Intelligence, Prompt Engineering, and Design focused on iOS apps. Ability to create efficient solutions using Xcode and Git version control, always striving to deliver modern and functional interfaces.<br><br>📍 São Paulo, SP, Brazil<br>💻 Creating bugs since 2023<br><br>🇵🇹 PT-BR:<br><br>Meu nome é Kemuel, sou Desenvolvedor iOS Jr. com experiência em Swift, SwiftUI e Python, além de certificações em Inteligência Artificial, Engenharia de Prompts e Design com foco em aplicativos iOS. Habilidade para criar soluções eficientes usando Xcode e controle de versão Git, sempre buscando entregar interfaces modernas e funcionais.<br><br>📍 São Paulo, SP, Brasil<br>💻 Criando bugs desde 2023</p>
+<p align="left">🇬🇧 EN:<br><br>Junior Developer with experience in Python, Swift, and SwiftUI, as well as certifications in Artificial Intelligence, Prompt Engineering, and Software Design. Skilled at creating efficient solutions using Xcode and version control with Git, always aiming to deliver modular, secure, and functional code.<br><br>📍 São Paulo, SP, Brazil<br>💻 Creating bugs since 2023<br><br>🇵🇹 PT-BR:<br><br>Desenvolvedor Jr. com experiência em Python, Swift e SwiftUI, além de certificações em Inteligência Artificial, Engenharia de Prompts e Design de Software. Habilidade em criar soluções eficientes usando Xcode e controle de versão com Git, sempre visando entregar código modular, seguro e funcional.<br><br>📍 São Paulo, SP, Brasil<br>💻 Criando bugs desde 2023</p>
+
 
 ###
 
